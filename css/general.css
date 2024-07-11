@@ -1,0 +1,57 @@
+/*
+
+-- 01 TYPOGRAPHY
+
+- FONT SIZES (px)
+10, 12, 14, 16, 18, 20, 24, 30, 36, 44, 52, 62, 74, 86, 98
+
+- FONT WEIGTHS
+400, 500, 600, 700
+
+- LINE HEIGTHS
+1, 1.05, 1.2, 1.6, 1.7, 1.8
+
+- LETTER SPACING
+-0.5px, 0.75px
+
+-- 02 COLORS
+- Primary: #e67e22
+
+- Tints: #fdf2e9, #fae5d3, #eb984e
+
+- Shades: #45260a, #cf711f
+
+- Accents: #51cf66, #94d82d, #ffd43b
+
+- Greys: #ddd, #aaa, #888, #767676, #6f6f6f, #555, #333
+
+-- 04 BORDER RADIUS
+9px, 11px
+
+
+-- 05 WHITESPACES
+- SPACING (px)
+2, 4, 8, 12, 16, 24, 32, 48, 64, 80, 96, 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  color: #555;
+  font-weight: 400;
+  overflow-x: hidden;
+}

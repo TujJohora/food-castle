@@ -1,0 +1,61 @@
+/***************************************************/
+/* HEADER*/
+/***************************************************/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fdf2e9;
+
+  height: 9.6rem;
+
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  height: 3.2rem;
+}
+
+/***************************************************/
+/* NAV*/
+/***************************************************/
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-links:link,
+.main-nav-links:visited {
+  color: #333;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main-nav-links:hover,
+.main-nav-links:active {
+  color: #cf711f;
+}
+
+.main-nav-links.nav-cta:link,
+.main-nav-links.nav-cta:visited {
+  color: #fff;
+  background-color: #e67e22;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+}
+
+.main-nav-links.nav-cta:hover,
+.main-nav-links.nav-cta:active {
+  background-color: #cf711f;
+}
+
+.btn-mobile-nav {
+  display: none;
+}
